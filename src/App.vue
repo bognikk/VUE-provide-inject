@@ -37,28 +37,29 @@ export default {
     return {
       topics: this.topics,
       selectTopic: this.activateTopic
-    }
+    };
   },
   methods: {
     activateTopic(topicId) {
       this.activeTopic = this.topics.find(topic => topic.id === topicId);
-    },
-  },
+    }
+  }
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 div {
   background-color: #c0e3e8;
   padding: 0.01rem;
   min-height: 722px;
-}
-h6 {
-  text-align: center;
+
+  h6 {
+    text-align: center;
+  }
 }
 </style>
 
-<style>
+<style lang="scss">
 * {
   box-sizing: border-box;
 }
@@ -82,17 +83,17 @@ ul {
   padding: 0;
   display: flex;
   justify-content: center;
-}
 
-li {
-  border-radius: 12px;
-  border: 1px solid #ccc;
-  padding: 1rem;
-  width: 15rem;
-  margin: 0 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  li {
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 15rem;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 h2 {
@@ -108,15 +109,15 @@ button {
   padding: 0.75rem 2rem;
   border-radius: 30px;
   cursor: pointer;
-}
 
-button:hover,
-button:active {
-  background-color: #e24d8b;
-  border-color: #e24d8b;
-}
+  &:hover,
+  &:active {
+    background-color: #e24d8b;
+    border-color: #e24d8b;
+  }
 
-button:focus {
-  outline: none;
+  &:focus {
+    outline: none;
+  }
 }
 </style>

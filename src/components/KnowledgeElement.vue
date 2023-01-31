@@ -10,16 +10,17 @@
 <script>
 export default {
   inject: ['selectTopic'],
-  props: ['id', 'topicName', 'description'],
+  props: ['id', 'topicName', 'description']
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 li {
-  background-color: #F2D56F;
-}
-h6 {
-  margin: 0;
-  padding: 0;
+  background-color: #f2d56f;
+
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
 }
 </style>

@@ -8,16 +8,17 @@
 
 <script>
 export default {
-  props: ['topicTitle', 'text'],
+  props: ['topicTitle', 'text']
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 section {
-  background-color: #E0B1B1;
-}
-h6 {
-  margin: 0;
-  padding: 0;
+  background-color: #e0b1b1;
+
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
 }
 </style>

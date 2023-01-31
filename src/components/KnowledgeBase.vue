@@ -7,17 +7,16 @@
 </template>
 
 <script>
-export default {
-
-};
+export default {};
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 section {
   background-color: rgb(187, 100, 237);
-}
-h6 {
-  margin: 0;
-  padding: 0;
+
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
 }
 </style>
